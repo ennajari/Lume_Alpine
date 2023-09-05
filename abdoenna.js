@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Create a Lume 3D Scene
     const scene = document.createElement("lume-scene");
     scene.setAttribute("webgl", "");
-    
+
     // Define ambient and point lights
     const ambientLight = document.createElement("lume-ambient-light");
     ambientLight.setAttribute("intensity", "0.7");
